@@ -26,14 +26,15 @@ class CscExamples{
 	}
 	public void addQuestion(CscExample qu)
 	{
+		questionNo=qu;
 		
 	}
 	public void removeQuestion(int quId)
 	{
-		
+		questionNo=quId;
 	}
 	public void editQuestion(int quId)
 	{
-		
+		questionNo=quId;
 	}
 }
